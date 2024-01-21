@@ -13,7 +13,7 @@ function LogIn() {
     };
 
     return (
-        <div className="h-screen w-screen flex justify-center items-center bg-gradient-to-r from-white to-blue-400">
+        <div className="h-screen w-screen flex justify-center items-center bg-gradient-to-tr from-slate-400 to-blue-600">
             <div>
                 {showSignUpForm ? (
                     <LoginForm />
