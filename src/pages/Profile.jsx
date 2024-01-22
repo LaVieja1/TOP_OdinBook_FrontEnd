@@ -121,10 +121,10 @@ function Profile () {
                             <div className="min-w-[28vw] max-w-[400px] h-fit my-5 mr-16 ml-0 rounded-2xl shadow-sm shadow-blue-200">
                                 <h3 className="w-[calc(100%-24px)] rounded-[15px,15px,0,0] m-0 p-2.5 border-2 border-solid border-blue-500 text-xl font-bold">Amigos</h3>
                                 {user.friends.length > 0 ? (
-                                    <div className="rounded-[0,0,15px,15px] border-2 border-solid border-blue-500 border-t-0">
+                                    <div className="rounded-[0,0,15px,15px] border-2 border-solid border-blue-500 border-t-0 first:pt-5 last:pb-5">
                                         {'  '}
                                         {user.friends.map((friend) => (
-                                            <UserIcon user={friend} key={friend._id} className='p-[10px,0px,5px,10px] first:pt-5 last:pb-5' />
+                                            <UserIcon user={friend} key={friend._id} className='p-[10px,0px,5px,10px]' />
                                         ))}
                                     </div>
                                 ) : (
