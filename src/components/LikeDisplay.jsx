@@ -25,8 +25,8 @@ function LikeDisplay ({ likes, modalIsOpen, setModalIsOpen }) {
         >
             <div>
                 <header className='flex justify-between items-center h-min mb-1.5'>
-                    <h3 className='m-0'>Likes</h3>
-                    <button className='text-lg font-bold border-none rounded-full h-7 w-7 text-center hover:bg-blue-500 hover:cursor-pointer' onClick={closeModal}>
+                    <h3 className='m-0 text-black text-xl font-bold'>Likes</h3>
+                    <button className='text-black text-lg font-bold border-none rounded-full h-7 w-7 text-center hover:bg-azul hover:cursor-pointer' onClick={closeModal}>
                         X
                     </button>
                 </header>
