@@ -150,7 +150,7 @@ function Settings() {
                             />
 
                             <button
-                                className="flex items-center ml-5 h-10 px-3 text-lg font-bold rounded-2xl bg-azul border-black border-2 border-solid hover:shadow-[0_0_10px_#9381FF] hover:cursor-pointer"
+                                className="flex items-center ml-5 h-10 px-3 text-lg font-bold rounded-2xl bg-azul hover:shadow-[0_0_10px_#9381FF] hover:cursor-pointer"
                                 onClick={() => {
                                     showForm ? setShowForm(false) : setShowForm(true);
                                 }}
