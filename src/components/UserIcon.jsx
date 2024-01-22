@@ -13,13 +13,13 @@ function UserIcon (props) {
                     <Link to={'/users/' + user._id}>
                         <img
                             src={user.profilePhoto}
-                            className="h-12 w-12 object-cover bg-transparent rounded-r-3xl hover:shadow-lg hover:shadow-blue-600"
+                            className="h-12 w-12 object-cover bg-transparent rounded-[50%] hover:shadow-[0_0_10px_#9381FF]"
                             alt="user avatar"
                         />
                     </Link>
                 </Tooltip>
 
-                <Link className="no-underline text-black font-bold text-xl p-1 mr-2 ml-2 text-left hover:underline hover:decoration-blue-600 hover:underline-offset-4" to={`/users/${user._id}`}>
+                <Link className="no-underline text-black font-bold text-xl p-1 mr-2 ml-2 text-left hover:underline hover:decoration-azul hover:underline-offset-4" to={`/users/${user._id}`}>
                     {user.username}
                 </Link>
             </button>
