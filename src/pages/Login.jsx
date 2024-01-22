@@ -19,7 +19,7 @@ function LogIn() {
                     <LoginForm />
                 ) : (
                     <button
-                        className={`py-14 px-5 bg-transparent transition-all duration-1000 hover:bg-blue-400 hover:rounded-2xl ${slideUp ? "-translate-y-full transition-transform ease-in-out duration-500" : ''}`}
+                        className={`text-6xl py-14 px-5 bg-transparent transition-all duration-500 hover:bg-blue-400 hover:rounded-[50%] ${slideUp ? "-translate-y-full transition-transform ease-in-out duration-500" : ''}`}
                         onClick={handleButtonClick}
                     >
                         <h1>OdinBook</h1>

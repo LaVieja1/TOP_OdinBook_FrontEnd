@@ -104,7 +104,7 @@ function LoginForm() {
     if (preexistingUser) {
         return (
             <div className="w-80">
-                <h1 className="text-center">OdinBook</h1>
+                <h1 className="text-center text-4xl">OdinBook</h1>
                 <form onSubmit={handleLoginSubmit} className="flex flex-col">
                     <div className="flex flex-col my-1 rounded-2xl font-bold">
                         {'  '}
