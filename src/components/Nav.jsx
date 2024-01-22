@@ -44,7 +44,7 @@ function Nav({ updateUser, setUpdateUser }) {
 
     if (user)
         return (
-            <nav className="flex bg-rosa py-2 px-0 justify-between shadow-lg shadow-neutral-400">
+            <nav className="flex bg-azul_claro py-2 px-0 justify-between shadow-lg shadow-neutral-400">
                 <button className="ml-4 bg-transparent border-none py-2.5 px-0 flex items-center justify-center text-center">
                     <Link to={'/home'} className="no-underline text-black transition-transform duration-500 font-bold text-3xl hover:underline hover:decoration-azul hover:underline-offset-4 hover:translate-y-1">OdinBook</Link>
                 </button>

@@ -134,14 +134,14 @@ function LoginForm() {
                         </label>
                     </div>
 
-                    <button className="bg-transparent rounded-2xl hover:bg-blue-400 h-10" type="submit">
+                    <button className="bg-transparent rounded-2xl hover:bg-azul_claro h-10" type="submit">
                         Iniciar sesión
                     </button>
                     <hr />
-                    <button className="bg-transparent rounded-2xl hover:bg-blue-400 h-10" onClick={guestSignIn}>
+                    <button className="bg-transparent rounded-2xl hover:bg-azul_claro h-10" onClick={guestSignIn}>
                         Iniciar sesión como invitado
                     </button>
-                    <button className="bg-transparent rounded-2xl hover:bg-blue-400 h-10" onClick={() => setPreexistingUser(false)}>
+                    <button className="bg-transparent rounded-2xl hover:bg-azul_claro h-10" onClick={() => setPreexistingUser(false)}>
                         Registrarse
                     </button>
                 </form>

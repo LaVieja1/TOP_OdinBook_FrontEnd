@@ -13,13 +13,13 @@ function LogIn() {
     };
 
     return (
-        <div className="h-screen w-screen flex justify-center items-center bg-gradient-to-tr from-slate-400 to-blue-600">
+        <div className="h-screen w-screen flex justify-center items-center bg-gradient-to-tr from-slate-400 to-azul">
             <div>
                 {showSignUpForm ? (
                     <LoginForm />
                 ) : (
                     <button
-                        className={`text-6xl py-14 px-5 bg-transparent transition-all duration-500 hover:bg-blue-400 hover:rounded-[50%] ${slideUp ? "-translate-y-full transition-transform ease-in-out duration-500" : ''}`}
+                        className={`text-6xl py-14 px-5 bg-transparent transition-all duration-500 hover:bg-azul_claro hover:rounded-[50%] ${slideUp ? "-translate-y-full transition-transform ease-in-out duration-500" : ''}`}
                         onClick={handleButtonClick}
                     >
                         <h1>OdinBook</h1>
