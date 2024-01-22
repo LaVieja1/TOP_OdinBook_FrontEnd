@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Login from './pages/Login';
+import Home from './pages/Home';
 import Settings from './pages/Settings';
 import { ProtectedLayout } from './components/ProtectedLayout';
 import { HomeLayout } from './components/HomeLayout';
@@ -12,6 +13,8 @@ export default function App() {
       </Route>
 
       <Route path='/' element={<ProtectedLayout />}>
+        <Route index element={<Home />} />
+        <Route path='home' element={<Home />} />
         <Route path='settings' element={<Settings />} />
       </Route>
     </Routes>
