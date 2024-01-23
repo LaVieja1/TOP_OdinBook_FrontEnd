@@ -166,7 +166,7 @@ function Settings() {
                         >
                             <form
                                 onSubmit={handleSubmit}
-                                className="p-5 bg-gris rounded-xl flex justify-start"
+                                className="p-5 bg-crema rounded-xl flex justify-start"
                                 encType="multipart/form-data"
                             >
                                 <input
