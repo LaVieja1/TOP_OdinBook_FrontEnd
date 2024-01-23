@@ -57,7 +57,8 @@ function Nav({ updateUser, setUpdateUser }) {
                         >
                             <img
                                 className="h-10 bg-transparent"
-                                src="https://res.cloudinary.com/djvf2vnbp/image/upload/v1705879385/mhiguydvpu0ulnnmsyuu.png"
+                                src="/mood-plus.svg"
+                                //src="https://res.cloudinary.com/djvf2vnbp/image/upload/v1705879385/mhiguydvpu0ulnnmsyuu.png"
                                 alt="friends img"
                             />
                         </button>
@@ -73,7 +74,8 @@ function Nav({ updateUser, setUpdateUser }) {
                         <Link className="mr-7 rounded-[50%] border-none p-0 h-10 bg-transparent hover:shadow-[0_0_10px_#9381FF] hover:cursor-pointer hover:bg-azul" to={'/settings'}>
                             <img
                                 className="h-10 bg-transparent rounded-[50%]"
-                                src="https://res.cloudinary.com/djvf2vnbp/image/upload/v1705879723/k6up39fv70zuajapijnw.png"
+                                src="/settings.svg"
+                                //src="https://res.cloudinary.com/djvf2vnbp/image/upload/v1705879723/k6up39fv70zuajapijnw.png"
                                 alt="settings icon"
                             />
                         </Link>
@@ -82,7 +84,8 @@ function Nav({ updateUser, setUpdateUser }) {
                         <button className="mr-7 rounded-[50%] border-none p-0 h-10 bg-transparent hover:shadow-[0_0_10px_#9381FF] hover:cursor-pointer hover:bg-azul" onClick={logOut}>
                             <img
                                 className="h-10 bg-transparent"
-                                src="https://res.cloudinary.com/djvf2vnbp/image/upload/v1705958656/qdf2cx5fcezk0dpvbyza.png"
+                                src="/logout.svg"
+                                //src="https://res.cloudinary.com/djvf2vnbp/image/upload/v1705958656/qdf2cx5fcezk0dpvbyza.png"
                                 alt="cerrar sesión"
                             />
                         </button>

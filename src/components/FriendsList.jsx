@@ -98,7 +98,8 @@ function FriendsList({ id }) {
                                     <img
                                         className="h-8 w-8 rounded-[50%] hover:bg-azul_claro hover:cursor-pointer"
                                         value={friend._id}
-                                        src="https://res.cloudinary.com/djvf2vnbp/image/upload/v1705886878/ngmfidwozqycsgnkngf5.png"
+                                        src="/user-plus.svg"
+                                        //src="https://res.cloudinary.com/djvf2vnbp/image/upload/v1705886878/ngmfidwozqycsgnkngf5.png"
                                         alt="añadir amigo"
                                     />
                                 </Tooltip>

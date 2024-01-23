@@ -103,7 +103,8 @@ function Profile () {
                                 <img
                                     className="h-8 w-8 rounded-[50%] hover:bg-azul hover:cursor-pointer"
                                     value={user._id}
-                                    src="https://res.cloudinary.com/djvf2vnbp/image/upload/v1705886878/ngmfidwozqycsgnkngf5.png"
+                                    src="/user-plus.svg"
+                                    //src="https://res.cloudinary.com/djvf2vnbp/image/upload/v1705886878/ngmfidwozqycsgnkngf5.png"
                                     alt="añadir amigo"
                                 />
                                 </Tooltip>

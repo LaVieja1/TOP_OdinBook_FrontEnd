@@ -112,7 +112,8 @@ function Post ({ post, setError, setUpdatePosts }) {
                 >
                     <img
                         className='h-5'
-                        src='https://res.cloudinary.com/djvf2vnbp/image/upload/v1705931074/uiklxu67hsbgb8zfqlup.png'
+                        src='/trash.svg'
+                        //src='https://res.cloudinary.com/djvf2vnbp/image/upload/v1705931074/uiklxu67hsbgb8zfqlup.png'
                         alt='borrar comentario'
                     />
                 </button>
@@ -121,7 +122,8 @@ function Post ({ post, setError, setUpdatePosts }) {
                 <button className='absolute bottom-1.5 right-1.5 border-none bg-transparent w-fit h-8 rounded-xl pt-0.5 pr-1 pb-1 pl-0.5 hover:bg-azul hover:cursor-pointer' onClick={submitComment}>
                     <img
                         className='h-8'
-                        src='https://res.cloudinary.com/djvf2vnbp/image/upload/v1705931375/imqkdk9ugc1cmtdg6anj.png'
+                        src='/send-2.svg'
+                        //src='https://res.cloudinary.com/djvf2vnbp/image/upload/v1705931375/imqkdk9ugc1cmtdg6anj.png'
                         alt='publicar comentario'
                     />
                 </button>
