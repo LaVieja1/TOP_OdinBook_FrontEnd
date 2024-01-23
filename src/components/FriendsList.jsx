@@ -86,17 +86,17 @@ function FriendsList({ id }) {
             { friends && friends.length > 0 && (
                 <div className="flex flex-col">
                     {friends.map((friend) => (
-                        <div className="mb-2.5 flex items-center mr-2.5" key={friend._id}>
+                        <div className="w-full mb-2.5 flex items-center mr-2.5" key={friend._id}>
                             {'  '}
                             <UserIcon user={friend} />
                             <button
-                                className="h-8 w-8 bg-transparent border-none ml-auto rounded-full"
+                                className="h-8 w-8 bg-transparent border-none ml-auto rounded-[50%]"
                                 onClick={addFriend}
                                 disabled={disabledButtons[friend._id]}
                             >
                                 <Tooltip title='Añadir amigo'>
                                     <img
-                                        className="h-8 w-8 rounded-full hover:bg-blue-500 hover:cursor-pointer"
+                                        className="h-8 w-8 rounded-[50%] hover:bg-azul_claro hover:cursor-pointer"
                                         value={friend._id}
                                         src="https://res.cloudinary.com/djvf2vnbp/image/upload/v1705886878/ngmfidwozqycsgnkngf5.png"
                                         alt="añadir amigo"

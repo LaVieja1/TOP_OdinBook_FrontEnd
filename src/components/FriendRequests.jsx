@@ -77,7 +77,7 @@ function FriendRequests({
         >
             {friendRequests && friendRequests.length > 0 ? (
                 <div>
-                    <h3 className="my-1 mx-0">Solicitudes de amistad</h3>
+                    <h3 className="my-1 mx-0 text-black font-bold">Solicitudes de amistad</h3>
                     <hr />
                     {friendRequests.map((request) => {
                         return (
@@ -90,7 +90,7 @@ function FriendRequests({
                                     <button
                                         disabled={disableBtn}
                                         value={request._id}
-                                        className="text-base rounded-r-md p-1 cursor-pointer text-white bg-blue-400 border-2 border-solid border-blue-400 hover:shadow-lg shadow-blue-300 hover:text-black hover:border-black"
+                                        className="text-base rounded p-1 cursor-pointer text-white bg-azul hover:shadow-[0_0_15px_pink] hover:text-black"
                                         onClick={accept}
                                     >
                                         Aceptar
@@ -98,7 +98,7 @@ function FriendRequests({
                                     <button
                                         disabled={disableBtn}
                                         value={request._id}
-                                        className="text-base rounded-r-md p-1 cursor-pointer bg-transparent ml-1 hover:border-red-700 hover:bg-red-600 hover:text-white"
+                                        className="text-base rounded p-1 cursor-pointer bg-transparent ml-1 hover:border-red-700 hover:bg-rosa hover:text-white"
                                         onClick={decline}
                                     >
                                         Rechazar
