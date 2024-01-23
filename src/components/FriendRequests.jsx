@@ -20,9 +20,9 @@ function FriendRequests({
     const customStyles = {
         content: {
             height: 'min-content',
-            width: '450px',
-            position: 'absolute',
-            margin: '40px 5px  0 auto',
+            width: '375px',
+            position: 'flex',
+            margin: '40px 5px 0 auto',
             borderRadius: '15px',
             padding: '15px'
         }
@@ -76,7 +76,7 @@ function FriendRequests({
             style={customStyles}
         >
             {friendRequests && friendRequests.length > 0 ? (
-                <div>
+                <div className="max-sm:text-black">
                     <h3 className="my-1 mx-0 text-black font-bold">Solicitudes de amistad</h3>
                     <hr />
                     {friendRequests.map((request) => {

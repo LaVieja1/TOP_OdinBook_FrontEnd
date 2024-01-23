@@ -45,14 +45,14 @@ function Nav({ updateUser, setUpdateUser }) {
     if (user)
         return (
             <nav className="flex bg-azul_claro py-2 px-0 justify-between shadow-lg shadow-neutral-400">
-                <button className="ml-4 bg-transparent border-none py-2.5 px-0 flex items-center justify-center text-center">
-                    <Link to={'/home'} className="no-underline text-black transition-transform duration-500 font-bold text-3xl hover:underline hover:decoration-azul hover:underline-offset-4 hover:translate-y-1">OdinBook</Link>
+                <button className="ml-4 bg-transparent border-none py-2.5 px-0 flex items-center justify-center text-center max-sm:ml-1 max-sm:py-1">
+                    <Link to={'/home'} className="no-underline text-black transition-transform duration-500 font-bold text-3xl hover:underline hover:decoration-azul hover:underline-offset-4 hover:translate-y-1 max-sm:text-base">OdinBook</Link>
                 </button>
                 <div className={`flex items-center`}>
                     <UserIcon user={user} />
                     <Tooltip title='Solicitudes de amistad'>
                         <button
-                            className="rounded-[50%] mr-7 ml-7 border-none p-0 h-10 bg-transparent hover:shadow-[0_0_10px_#9381FF] hover:cursor-pointer"
+                            className="rounded-[50%] mr-7 ml-7 border-none p-0 h-10 bg-transparent hover:shadow-[0_0_10px_#9381FF] hover:cursor-pointer max-sm:mx-2"
                             onClick={() => setFriendModalIsOpen(true)}
                         >
                             <img
@@ -71,7 +71,7 @@ function Nav({ updateUser, setUpdateUser }) {
                         id={user._id}
                     />
                     <Tooltip title='Opciones'>
-                        <Link className="mr-7 rounded-[50%] border-none p-0 h-10 bg-transparent hover:shadow-[0_0_10px_#9381FF] hover:cursor-pointer hover:bg-azul" to={'/settings'}>
+                        <Link className="mr-7 rounded-[50%] border-none p-0 h-10 bg-transparent hover:shadow-[0_0_10px_#9381FF] hover:cursor-pointer hover:bg-azul max-sm:mx-2" to={'/settings'}>
                             <img
                                 className="h-10 bg-transparent rounded-[50%]"
                                 src="/settings.svg"
@@ -81,7 +81,7 @@ function Nav({ updateUser, setUpdateUser }) {
                         </Link>
                     </Tooltip>
                     <Tooltip title="Cerrar sesión">
-                        <button className="mr-7 rounded-[50%] border-none p-0 h-10 bg-transparent hover:shadow-[0_0_10px_#9381FF] hover:cursor-pointer hover:bg-azul" onClick={logOut}>
+                        <button className="mr-7 rounded-[50%] border-none p-0 h-10 bg-transparent hover:shadow-[0_0_10px_#9381FF] hover:cursor-pointer hover:bg-azul max-sm:mx-2" onClick={logOut}>
                             <img
                                 className="h-10 bg-transparent"
                                 src="/logout.svg"
