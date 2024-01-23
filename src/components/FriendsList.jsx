@@ -103,7 +103,7 @@ function FriendsList({ id }) {
                                         alt="añadir amigo"
                                     />
                                 </Tooltip>
-                                {disabledButtons[friend._id] ? <p className="relative -top-5 text-green-500">Enviar</p> : <></>}
+                                {disabledButtons[friend._id] ? <p className="relative -top-15 text-green-500">Enviado</p> : <></>}
                             </button>
                         </div>
                     ))}
