@@ -36,7 +36,7 @@ function Timeline ({ id }) {
     }, [updatePosts]);
 
     return (
-        <div className="flex mt-[3vh] mx-[5vw] mb-0">
+        <div className="flex mt-[3vh] mx-[5vw] mb-0 text-black">
             <div className="flex flex-col items-center w-full mb-10">
                 <NewPost
                     id={id}
