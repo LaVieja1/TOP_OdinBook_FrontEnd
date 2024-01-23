@@ -32,7 +32,7 @@ function FriendRequests({
         setDisableBtn(true);
         const requestId = e.target.value;
         const response = await fetch(
-            'http://localhost:3000/users/' + id + '/friendrequests/' + requestId + '/decline', {
+            'https://top-odinbook-api.onrender.com/users/' + id + '/friendrequests/' + requestId + '/decline', {
                 method: 'POST',
                 headers: {
                     Authorization: 'Bearer ' + token
@@ -52,7 +52,7 @@ function FriendRequests({
         setDisableBtn(true);
         const requestId = e.target.value;
         const response = await fetch (
-            'http://localhost:3000/users/' + id + '/friendrequests/' + requestId + '/accept', {
+            'https://top-odinbook-api.onrender.com/users/' + id + '/friendrequests/' + requestId + '/accept', {
                 method: 'POST',
                 headers: {
                     Authorization: 'Bearer ' + token

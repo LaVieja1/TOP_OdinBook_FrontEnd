@@ -28,7 +28,7 @@ function Post ({ post, setError, setUpdatePosts }) {
         };
 
         const response = await fetch (
-            'http://localhost:3000/posts/' + post._id + '/likes',
+            'https://top-odinbook-api.onrender.com/posts/' + post._id + '/likes',
             {
                 method: 'POST',
                 headers: {
@@ -62,7 +62,7 @@ function Post ({ post, setError, setUpdatePosts }) {
         };
 
         const response = await fetch(
-            'http://localhost:3000/posts/' + post._id + '/comments',
+            'https://top-odinbook-api.onrender.com/posts/' + post._id + '/comments',
             {
                 method: 'POST',
                 headers: {

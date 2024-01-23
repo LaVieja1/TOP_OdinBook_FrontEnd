@@ -14,7 +14,7 @@ function LoginForm() {
         e.preventDefault();
         try {
             const response = await fetch(
-                'http://localhost:3000/login',
+                'https://top-odinbook-api.onrender.com/login',
                 {
                     method: 'POST',
                     headers: {
@@ -44,7 +44,7 @@ function LoginForm() {
         e.preventDefault();
         try {
             const response = await fetch(
-                'http://localhost:3000/login/guest',
+                'https://top-odinbook-api.onrender.com/login/guest',
                 {
                     method: 'POST'
                 }
@@ -75,7 +75,7 @@ function LoginForm() {
                 confirm_password: passwordConfirm,
             };
             const response = await fetch (
-                'http://localhost:3000/signup',
+                'https://top-odinbook-api.onrender.com/signup',
                 {
                     method: 'POST',
                     headers: {

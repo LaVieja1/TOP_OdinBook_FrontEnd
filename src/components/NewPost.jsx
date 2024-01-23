@@ -31,7 +31,7 @@ function NewPost (props) {
         };
 
         const response = await fetch (
-            'http://localhost:3000/posts/',
+            'https://top-odinbook-api.onrender.com/posts/',
             {
                 method: 'POST',
                 headers: {

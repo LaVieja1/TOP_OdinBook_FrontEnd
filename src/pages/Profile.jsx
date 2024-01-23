@@ -23,7 +23,7 @@ function Profile () {
     useEffect(() => {
         const fetchUser = async () => {
             const response = await fetch (
-                'http://localhost:3000/users/' + id,
+                'https://top-odinbook-api.onrender.com/users/' + id,
                 {
                     headers: {
                         Authorization: 'Bearer ' + token
@@ -40,7 +40,7 @@ function Profile () {
     useEffect(() => {
         const fetchPosts = async () => {
             const response = await fetch(
-                'http://localhost:3000/posts/' + id,
+                'https://top-odinbook-api.onrender.com/posts/' + id,
                 {
                     headers: {
                         Authorization: 'Bearer ' + token
@@ -66,7 +66,7 @@ function Profile () {
             to: friendId
         };
         const response = await fetch (
-            'http://localhost:3000/users/' + id + '/friendrequests',
+            'https://top-odinbook-api.onrender.com/users/' + id + '/friendrequests',
             {
                 method: 'POST',
                 headers: {

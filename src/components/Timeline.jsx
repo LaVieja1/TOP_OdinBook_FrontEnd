@@ -15,7 +15,7 @@ function Timeline ({ id }) {
         const fetchPosts = async () => {
             const token = Cookies.get('jwt_token');
             const response = await fetch (
-                'http://localhost:3000/posts/' + id + '/all',
+                'https://top-odinbook-api.onrender.com/posts/' + id + '/all',
                 {
                     headers: {
                         Authorization: 'Bearer ' + token

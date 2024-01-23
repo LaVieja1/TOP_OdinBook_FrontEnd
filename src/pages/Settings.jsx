@@ -20,7 +20,7 @@ function Settings() {
     useEffect(() => {
         const fetchUser = async () => {
             const response = await fetch(
-                'http://localhost:3000/users/' + id,
+                'https://top-odinbook-api.onrender.com/users/' + id,
                 {
                     headers: {
                         'Content-Type': 'application/json',
@@ -76,7 +76,7 @@ function Settings() {
 
         try {
             const response = await fetch(
-                'http://localhost:3000/users/' + id + '/profilepic',
+                'https://top-odinbook-api.onrender.com/users/' + id + '/profilepic',
                 {
                     headers: {
                         'Content-Type': 'application/json',
@@ -113,7 +113,7 @@ function Settings() {
 
         try {
             await fetch(
-                'http://localhost:3000/users/' + id + '/bio',
+                'https://top-odinbook-api.onrender.com/users/' + id + '/bio',
                 {
                     method: 'POST',
                     headers: {

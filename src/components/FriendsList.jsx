@@ -15,7 +15,7 @@ function FriendsList({ id }) {
     useEffect(() => {
         const fetchFriends = async () => {
             const response = await fetch(
-                'http://localhost:3000/users/' + id + '/suggested_friends',
+                'https://top-odinbook-api.onrender.com/users/' + id + '/suggested_friends',
                 {
                     headers: {
                         Authorization: 'Bearer ' + token
@@ -61,7 +61,7 @@ function FriendsList({ id }) {
             to: friendId
         };
         const response = await fetch(
-            'http://localhost:3000/users/' + id + '/friendrequests',
+            'https://top-odinbook-api.onrender.com/users/' + id + '/friendrequests',
             {
                 method: 'POST',
                 headers: {

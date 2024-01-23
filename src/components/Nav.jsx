@@ -24,7 +24,7 @@ function Nav({ updateUser, setUpdateUser }) {
     useEffect(() => {
         const fetchUser = async () => {
             const response = await fetch (
-                'http://localhost:3000/users/' + userId,
+                'https://top-odinbook-api.onrender.com/users/' + userId,
                 {
                     headers: {
                         Authorization: 'Bearer ' + token
