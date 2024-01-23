@@ -81,7 +81,7 @@ function FriendsList({ id }) {
     };
 
     return (
-        <div className="w-fit ml-5">
+        <div className="w-fit ml-5 max-lg:hidden">
             <h3 className="text-start text-2xl pt-2.5 pr-0 pb-2.5 pl-1.5 m-0">Amigos sugeridos</h3>
             { friends && friends.length > 0 && (
                 <div className="flex flex-col">

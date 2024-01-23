@@ -48,7 +48,7 @@ function Nav({ updateUser, setUpdateUser }) {
                 <button className="ml-4 bg-transparent border-none py-2.5 px-0 flex items-center justify-center text-center">
                     <Link to={'/home'} className="no-underline text-black transition-transform duration-500 font-bold text-3xl hover:underline hover:decoration-azul hover:underline-offset-4 hover:translate-y-1">OdinBook</Link>
                 </button>
-                <div className="flex items-center">
+                <div className={`flex items-center`}>
                     <UserIcon user={user} />
                     <Tooltip title='Solicitudes de amistad'>
                         <button

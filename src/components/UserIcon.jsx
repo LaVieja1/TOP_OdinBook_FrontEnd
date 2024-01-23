@@ -19,7 +19,7 @@ function UserIcon (props) {
                     </Link>
                 </Tooltip>
 
-                <Link className="no-underline text-black font-bold text-xl p-1 mr-2 ml-2 text-left hover:underline hover:decoration-azul hover:underline-offset-4" to={`/users/${user._id}`}>
+                <Link className="no-underline text-black font-bold text-xl p-1 mr-2 ml-2 text-left hover:underline hover:decoration-azul hover:underline-offset-4 max-sm:hidden" to={`/users/${user._id}`}>
                     {user.username}
                 </Link>
             </button>

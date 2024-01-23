@@ -142,7 +142,7 @@ function Post ({ post, setError, setUpdatePosts }) {
                 <div className='flex justify-center w-full bg-white rounded-[15px_15px_0_0] shadow-[0_0_0_2px_#f8717145]'>
                     <div className='flex items-center w-[92.5%] my-4 mx-0 rounded-[15px_15px_0_0]'>
                         <UserIcon user={post.author} />
-                        <p className='text-sm text-gris -ml-1.5'>publicado en {humanDate}</p>
+                        <p className='text-sm text-gris -ml-1.5 max-sm:ml-2'>publicado en {humanDate}</p>
                     </div>
                 </div>
 
