@@ -62,7 +62,7 @@ function NewPost (props) {
                 <textarea
                     onChange={handleChange}
                     value={post}
-                    className="w-[90%] rounded-2xl resize-none pt-3 px-[5%] pb-12 border-none text-lg"
+                    className="w-[100%] rounded-2xl resize-none pt-3 px-[5%] pb-12 border-none text-lg"
                     name="newPost"
                     id="newPost"
                     placeholder="¿En que estas pensando?"
